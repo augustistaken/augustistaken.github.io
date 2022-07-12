@@ -1,3 +1,26 @@
 body {
     background: green;
+    margin: 0;
+}
+header {
+    display: flex;
+    align-items: center;
+}
+h1 {
+    width: 50%;
+    text-align: center;
+}
+h1 a {
+    text-decoration: none;
+}
+header nav {
+    width: 50%;
+}
+header ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+}
+header ul li a {
+    text-decoration: none;
 }
