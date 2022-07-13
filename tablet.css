@@ -37,7 +37,7 @@ header ul li a:hover {
 .container img {
     width: 100vw;
 }
-.container p {
+.container p,h2 {
     color: white;
     position: absolute;
     top: 42.5%;
@@ -48,8 +48,9 @@ header ul li a:hover {
     width:40%;
     text-align: center;
 }
-.section {
-    display: flex;
+.section p, ul{
+    text-align: center;
+    list-style: none;
 }
 footer {
     color: white;
