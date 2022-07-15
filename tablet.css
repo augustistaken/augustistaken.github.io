@@ -71,4 +71,6 @@ footer {
 footer img {
     margin-left: 10px;
     height: 33px;
+.active {
+    color: gold;
 }

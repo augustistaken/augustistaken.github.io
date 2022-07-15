@@ -37,6 +37,9 @@ header ul li a:hover {
 header ul li a:active {
     text-decoration: underline;
 }
+.active {
+    color: gold;
+}
 .container {
     position: relative;
     font-weight: bold;
