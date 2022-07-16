@@ -71,6 +71,12 @@ footer {
 footer img {
     margin-left: 10px;
     height: 33px;
-.active {
-    color: gold;
+}
+.content p {
+    font-size: 40px;
+    text-align: center;
+    text-decoration: underline;
+}
+.content ul {
+
 }
