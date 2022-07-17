@@ -1,82 +1,112 @@
-body {
+* {
     margin: 0;
-    display: flex;
-    flex-direction: column;
+    padding: 0;
+    font-family: sans-serif;
 }
 header {
     display: flex;
-    align-items: center;
     background-color: blue;
+    align-items: center;
+    padding: 2% 0;
 }
-h1 {
+header h1 {
     width: 50%;
     text-align: center;
 }
-h1 a {
+header h1 a {
     text-decoration: none;
     color: white;
+}
+header h1 a:hover {
+    color: cyan;
 }
 header nav {
     width: 50%;
 }
 header ul {
-    display: flex;
+    width: 100%;
     list-style: none;
-    justify-content: space-evenly;
+    display: flex;
+    justify-content: space-around;
 }
 header ul li a {
     text-decoration: none;
     color: white;
 }
 header ul li a:hover {
-    color: aqua;
+    color: cyan;
 }
-header ul li a:active {
+.picture_with_text {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 0.3%;
+}
+.picture_with_text img {
+    width: 100%;
+}
+.picture_with_text p {
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+    position: absolute;
+}
+.picture_with_text h2 {
+    color: gold;
+    font-size: 4rem;
+    font-weight: bold;
+    position: absolute;
+}
+.content p,li {
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 1% 0;
+}
+.content a {
+    color: purple;
+    text-decoration: none;
+}
+.content a:hover {
+    text-decoration: underline;
+}
+#title {
+    font-size: 2rem;
     text-decoration: underline;
 }
 .container {
-    position: relative;
-    font-weight: bold;
-}
-.container img {
-    width: 100%;
-}
-.container p,h2 {
-    color: white;
-    position: absolute;
-    top: 42.5%;
-    left: 25%;
-    font-size: 27px;
-    margin: 0;
-    height: 5%;
-    width: 50%;
-    text-align: center;
-    font-weight: bold;
-}
-h2 {
-    font-size: 50px;
-}
-.section p, ul{
-    text-align: center;
-    list-style: none;
-}
-footer {
-    color: white;
     background-color: blue;
-    flex: 1;
+    color: white;
+    padding: 1% 0;
     display: flex;
+    align-items: center;
     justify-content: center;
-    align-items: center;;
 }
 footer img {
+    height: 20px;
     margin-left: 10px;
-    height: 33px;
+    border: 1px solid transparent;
 }
-.content p {
-    font-size: 40px;
+footer img:hover {
+    border: 1px solid cyan;
+}
+.lesson {
+    margin: 5%;
+}
+.lesson h3 {
     text-align: center;
-    text-decoration: underline;
+    font-size: 2rem;
+    color: darkcyan;
 }
-.content ul {
-
+.lesson h4 {
+    font-size: 1.5rem;
+    margin: 2.5% 0;
+}
+.lesson p {
+    font-size: 1.3rem;
+}
+.text_with_right_image {
+    display: flex;
+}
+.text_with_right_image img {
+    width: 50%;
 }
