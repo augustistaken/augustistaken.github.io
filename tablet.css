@@ -104,10 +104,18 @@ footer img:hover {
 .lesson p {
     font-size: 1.3rem;
 }
-.text_with_right_image {
+.text_with_image {
     display: flex;
 }
-.text_with_right_image img {
+.text_with_image img {
+    height: 30vw;
     width: 30vw;
-    height: auto;
+}
+.two_images {
+    display: flex;
+    justify-content: space-around;
+}
+.two_images img {
+    height: 30vw;
+    width: 30vw;
 }
